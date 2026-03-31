@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Pulse "P" letter in warm coral -->
+    <path
+        android:fillColor="#D97757"
+        android:pathData="M44,30 L44,78 L52,78 L52,60 L60,60 C68.84,60 76,52.84 76,44 C76,35.16 68.84,28 60,28 L46,28 C44.9,28 44,28.9 44,30 Z M52,36 L60,36 C64.42,36 68,39.58 68,44 C68,48.42 64.42,52 60,52 L52,52 L52,36 Z"/>
+</vector>
