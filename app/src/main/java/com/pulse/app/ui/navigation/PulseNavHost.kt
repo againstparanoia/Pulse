@@ -10,6 +10,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.pulse.app.ui.chores.ChoresScreen
 import com.pulse.app.ui.clock.ClockScreen
 import com.pulse.app.ui.habits.HabitsScreen
 import com.pulse.app.ui.pomodoro.PomodoroScreen
@@ -42,15 +43,10 @@ fun PulseNavHost(
             startDestination = "clock",
             modifier = Modifier.padding(innerPadding)
         ) {
-            composable("clock") {
-                ClockScreen()
-            }
-            composable("pomodoro") {
-                PomodoroScreen()
-            }
-            composable("habits") {
-                HabitsScreen()
-            }
+            composable("clock") { ClockScreen() }
+            composable("pomodoro") { PomodoroScreen() }
+            composable("habits") { HabitsScreen() }
+            composable("chores") { ChoresScreen() }
         }
     }
 }

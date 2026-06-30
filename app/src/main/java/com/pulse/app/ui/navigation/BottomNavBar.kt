@@ -2,9 +2,11 @@ package com.pulse.app.ui.navigation
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.CleaningServices
 import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.material.icons.filled.Timer
 import androidx.compose.material.icons.outlined.CheckCircle
+import androidx.compose.material.icons.outlined.CleaningServices
 import androidx.compose.material.icons.outlined.Schedule
 import androidx.compose.material.icons.outlined.Timer
 import androidx.compose.material3.Icon
@@ -41,6 +43,12 @@ val bottomNavItems = listOf(
         label = "Habits",
         selectedIcon = Icons.Filled.CheckCircle,
         unselectedIcon = Icons.Outlined.CheckCircle
+    ),
+    BottomNavItem(
+        route = "chores",
+        label = "Chores",
+        selectedIcon = Icons.Filled.CleaningServices,
+        unselectedIcon = Icons.Outlined.CleaningServices
     )
 )
 
